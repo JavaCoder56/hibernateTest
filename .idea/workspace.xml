@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: now it adds generated Person objects to database.">
+    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: now it changes name and age at Person object with id=3.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671203867153</updated>
       <workItem from="1671203868255" duration="3597000" />
-      <workItem from="1671272627050" duration="3033000" />
+      <workItem from="1671272627050" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="Change cod logic: now it adds generated Person objects to database.">
       <created>1671275747250</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671275747250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change cod logic: now it changes name and age at Person object with id=3.">
+      <created>1671277585398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671277585398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change cod logic: now it adds generated Person objects to database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change cod logic: now it adds generated Person objects to database." />
+    <MESSAGE value="Change cod logic: now it changes name and age at Person object with id=3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change cod logic: now it changes name and age at Person object with id=3." />
   </component>
 </project>

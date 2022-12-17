@@ -20,9 +20,8 @@ public class App
         try {
             session.beginTransaction();
 
-            Person changedPerson = session.get(Person.class, 3);
-            changedPerson.setName("Changed person");
-            changedPerson.setAge(9999);
+            Person person = session.get(Person.class,3);
+            session.remove(person);
 
             session.getTransaction().commit();
         } finally {
