@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: now it changes name and age at Person object with id=3.">
+    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: now it deletes Person object with id=3 from db.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
@@ -73,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671203867153</updated>
       <workItem from="1671203868255" duration="3597000" />
-      <workItem from="1671272627050" duration="3865000" />
+      <workItem from="1671272627050" duration="6062000" />
+      <workItem from="1671338831722" duration="18473000" />
     </task>
     <task id="LOCAL-00001" summary="Change cod logic: now it adds generated Person objects to database.">
       <created>1671275747250</created>
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671277585398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change cod logic: now it deletes Person object with id=3 from db.">
+      <created>1671278140090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671278140090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change cod logic: now it adds generated Person objects to database." />
     <MESSAGE value="Change cod logic: now it changes name and age at Person object with id=3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change cod logic: now it changes name and age at Person object with id=3." />
+    <MESSAGE value="Change cod logic: now it deletes Person object with id=3 from db." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change cod logic: now it deletes Person object with id=3 from db." />
   </component>
 </project>
