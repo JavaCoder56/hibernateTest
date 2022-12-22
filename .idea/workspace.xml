@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: now it changes name and age at Person object with id=3.">
+    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: testing one to many tables interaction.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="oneToMany" />
+      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,6 +70,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +85,8 @@
       <updated>1671203867153</updated>
       <workItem from="1671203868255" duration="3597000" />
       <workItem from="1671272627050" duration="3865000" />
+      <workItem from="1671469341626" duration="4253000" />
+      <workItem from="1671725447480" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="Change cod logic: now it adds generated Person objects to database.">
       <created>1671275747250</created>

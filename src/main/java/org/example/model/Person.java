@@ -1,7 +1,11 @@
 package org.example.model;
 
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="Person")
@@ -14,6 +18,10 @@ public class Person {
     private String name;
     @Column(name="age")
     private int age;
+
+    @OneToMany(mappedBy = "person")
+    @Cascade(value = org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+    private List<Item> items;
 
     public Person() {
     }
@@ -39,11 +47,27 @@ public class Person {
         this.name = name;
     }
 
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void addItem(Item item) {
+        if (this.items==null) {
+            this.setItems(new ArrayList<>());
+        }
+        items.add(item);
+        item.setPerson(this);
     }
 }
