@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519b1152-a9de-4762-98bf-5ef985eb7416" name="Changes" comment="Change cod logic: testing one to many tables interaction.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
+    <list default="true" id="4a2949c8-efdb-41f7-b2e2-901f32b4e497" name="Changes" comment="Test cascade.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f302b30b-0039-4c6f-98fe-82b262706bbc/storage_v2/_src_/database/hibernate_test_db.Xti4Iw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671277585398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test cascade.">
+      <created>1671726482695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671726482695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change cod logic: now it adds generated Person objects to database." />
     <MESSAGE value="Change cod logic: now it changes name and age at Person object with id=3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change cod logic: now it changes name and age at Person object with id=3." />
+    <MESSAGE value="Test cascade." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test cascade." />
   </component>
 </project>
